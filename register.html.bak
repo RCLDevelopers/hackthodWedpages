@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="Form/register.css">
+	
+</head>
+<body>
+                              
+	<section class="contact" id="contact">
+		
+		<div class="contactForm">
+			<center>
+		<div class="tit">
+			<h2 class="titTxt"><span>S</span>ing Up Here</h2>
+			<p>Welcome to HackThod ICT Club (The Meru National Polytechnic). </p>
+		</div>
+	</center>
+			<h3>Please fill all  in the fields. </h3>
+			<form action="" method="post">
+				<div class="inputBox">
+					<label for="name">Your  Name :</label>
+					<input  id="name" type="text" name="name" placeholder=" Your Full Name" required>
+				</div>
+				<form action="" method="post">
+				<div class="inputBox">
+					<label for="name">Your  National ID No. :</label>
+					<input  id="name" type="text" name="name" placeholder=" Your  National ID No." required>
+				</div>
+				<div class="inputBox">
+					<label for="email">Your Tel No. :</label>
+					<input id="email" type="text" name="email" placeholder="+254" required>
+				</div>
+				<div class="inputBox">
+					<label for="email">Your Email :</label>
+					<input id="email" type="text" name="email" placeholder="you@example.com" required >
+				</div>
+				<div class="inputBox">
+					<label for="msg">Reason For Joining :</label>
+					<textarea id="msg" rows="4"  placeholder="Reason For Joining" name="msg" required ></textarea>
+				</div>
+				<div>
+				       <input type="radio" id="club member" name="fav_language" value="CLUB MEMBER" >
+                      <label for="club member">CLUB MEMBER</label><br>
+                      <input type="radio" id="club client" name="fav_language" value="CLUB CLIENT" >
+                      <label for="club client">CLUB CLIENT</label><br>
+				</div>
+				<div class="inputBox">
+					<label for="sub" class="titTxt2">Your Account Password: <span>Strong</span></label>
+					<input id="sub" type="password" name="sub" placeholder="Password" required>
+				</div>
+				
+				<div class="inputBox">
+					<label for="sub" class="titTxt2">Confirm Your Account Password: </label>
+					<input id="sub" type="password" name="sub" placeholder="Password" required>
+				</div>
+				
+				<div class="inputBox" >
+					<a href="#" ><input type="submit" value="SIGN UP" ></a>
+				</div>
+			</form>
+			   <p align="center">By clicking the Sign Up button, You agree to our <br>
+			       <a href="login.html"> Terms and Conditions</a> and <a href="#"> Policy Privacy</a>
+			</p>
+			<div >
+			   <p class="para-2">Already have an Account? <a href="login.html"  > SIGN IN<a/></p>
+			</div>
+		</div>
+	</section>
+
+</body>
+</html>
